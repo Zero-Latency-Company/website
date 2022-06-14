@@ -5,9 +5,8 @@
 		</div>
 
 		<div class="inline-flex items-center ml-5 space-x-6 lg:justify-end">
-			<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
-				<router-link to="/" class="mr-5">HOME</router-link>
-
+			<nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200 uppercase">
+				<router-link to="/portfolio" class="mr-5">Portfolio</router-link>
 				<router-link to="/contact" class="mr-5">CONTACT</router-link>
 			</nav>
 		</div>

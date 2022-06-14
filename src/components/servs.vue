@@ -1,10 +1,6 @@
 <template>
 	<div class="container mx-auto max-w-7xl px-5">
-		<div class="py-40">
-			<p class="text-3xl font-mono uppercase">We help <span class="text-white bg-red-300">IDEAS</span> that empower the blockchain technology.</p>
-		</div>
-
-		<div class="py-10">
+		<div class="py-20">
 			<section class="grid lg:grid-cols-3 grid-cols-1 gap-10 antialiased">
 				<div v-for="(collapse, index) of collapses" :key="index">
 					<div class="p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl">
@@ -49,14 +45,6 @@
 					{
 						title: 'Project Audit',
 						text: 'A Project Audit is a formal review of a project, which is intended to assess the extent up to which project management standards are being upheld.',
-					},
-					{
-						title: 'Smart Contract Development',
-						text: 'A smart contract is a set of computer code that runs on the blockchain network.',
-					},
-					{
-						title: 'Graph Protocol Development',
-						text: 'The Graph is an indexing protocol for querying networks like Ethereum and IPFS.',
 					},
 				],
 			};

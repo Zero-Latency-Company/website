@@ -1,7 +1,7 @@
 <template>
 	<div class="px-5 py-20 container mx-auto max-w-7xl">
 		<div class="py-10">
-			<aside class="p-12 pt-36 sm:p-16 sm:pt-64 bg-gradient-to-r from-red-600 to-blue-500">
+			<aside class="p-12 pt-36 sm:p-16 sm:pt-64 bg-gradient-to-r from-red-400 to-purple-500">
 				<div class="sm:items-end sm:justify-between sm:flex">
 					<div class="max-w-xl"><p class="text-3xl font-bold text-white sm:text-4xl uppercase">We invest in Web3 at the earliest stages and beyond.</p></div>
 					<a class="inline-block px-8 py-4 mt-4 text-blue-500 bg-white rounded-lg shadow-lg hover:opacity-75 sm:mt-0 sm:ml-8"

@@ -26,7 +26,7 @@
 	export default {
 		data() {
 			return {
-				theme: ['bg-red-100', 'bg-blue-100', 'bg-green-100', 'bg-yellow-100', 'bg-purple-100', 'bg-blue-100'],
+				theme: ['bg-red-100', 'bg-blue-100', 'bg-green-100', 'bg-yellow-100', 'bg-purple-100', 'bg-blue-100','bg-red-100', 'bg-blue-100', 'bg-green-100', 'bg-yellow-100', 'bg-purple-100', 'bg-blue-100'],
 				teams: [
 					{
 						name: 'Jerry Ward',
@@ -58,8 +58,37 @@
 						title: 'Developer / Debugger',
 						pic: 'hugh',
 					},
+					{
+						name: 'Blossom',
+						title: 'Fund Manager',
+						pic: 'blossom',
+					},
+					{
+						name: 'Leonard Coleman',
+						title: 'Fund Manager',
+						pic: 'leonard',
+					},
+					{
+						name: 'Hardi Johnson',
+						title: 'Fund Manager',
+						pic: 'hardi',
+					},
+					{
+						name: 'Tristram Elledge',
+						title: 'Fund Manager',
+						pic: 'tristram',
+					},
+					{
+						name: 'Wayne Simmons',
+						title: 'Fund Manager',
+						pic: 'wayne',
+					},
 				],
 			};
+		},
+		mounted () {
+			//shuffle object array
+			this.teams.sort(() => Math.random() - 0.5);
 		},
 	};
 </script>

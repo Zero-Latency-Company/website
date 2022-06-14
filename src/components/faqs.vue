@@ -1,6 +1,6 @@
 <template>
 	<div class="container mx-auto max-w-7xl px-5">
-		<div class="py-40">
+		<div class="py-20">
 			<p class="text-3xl font-mono uppercase">frequently asked <span class="text-white bg-red-300">questions</span></p>
 		</div>
 

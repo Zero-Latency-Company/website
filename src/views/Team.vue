@@ -1,5 +1,5 @@
 <template>
-	<div class="container mx-auto max-w-7xl px-5">
+	<div>
 		<div class="py-40">
 			<p class="text-3xl font-mono uppercase">KNOW OUR <span class="text-white bg-red-300">TEAM</span></p>
 		</div>
